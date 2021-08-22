@@ -1,0 +1,13 @@
+{
+  "profile": "Profile",
+  "skills": "Skills",
+  "projects": "Projects",
+  "experience": "Experience",
+  "resume": "Resume/CV",
+  "cover": "Cover Letter",
+  "frontend": "Frontend",
+  "backend": "Backend",
+  "database": "Database",
+  "so": "Operating systems",
+  "tool": "Tools"
+}

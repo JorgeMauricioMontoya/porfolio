@@ -1,0 +1,13 @@
+{
+  "profile": "Perfil",
+  "skills": "Habilidades",
+  "projects": "Projectos",
+  "experience": "Experiencia",
+  "resume": "Resumen curricular",
+  "cover": "Carta de presentación",
+  "frontend": "Cliente",
+  "backend": "Servidor",
+  "database": "Base de datos",
+  "tool": "Herramientas",
+  "so": "Sistemas operativos"
+}
