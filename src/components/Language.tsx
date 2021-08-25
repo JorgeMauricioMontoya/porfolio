@@ -15,7 +15,7 @@ const Language = () => {
   return (
     <>
       <Menu as="div" className="relative inline-block text-left text-base font-normal">
-        <Menu.Button className="dark:bg-gray-800 dark:text-gray-200 relative z-10 block rounded-md bg-white p-2 focus:outline-none">
+        <Menu.Button className="dark:bg-gray-700 dark:text-gray-200 relative z-10 block rounded-md bg-white p-2 focus:outline-none">
           <div className='text-base flex'>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 pr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
@@ -40,7 +40,7 @@ const Language = () => {
                   id={ENGLISH}
                   onClick={(e) => handleChange(e, "en")}
                   className={`${
-                    active ? "bg-violet-500 text-yellow-500" : "text-gray-900"
+                    active ? "bg-gray-200 dark:bg-gray-700 text-yellow-500" : "text-gray-900"
                   } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                 >
                   {ENGLISH}
@@ -53,7 +53,7 @@ const Language = () => {
                   id={ESPANOL}
                   onClick={(e) => handleChange(e, "es")}
                   className={`${
-                    active ? "bg-violet-500 text-yellow-500" : "text-gray-900"
+                    active ? "bg-gray-200 dark:bg-gray-700 text-yellow-500" : "text-gray-900"
                   } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                 >
                   {ESPANOL}

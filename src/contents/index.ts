@@ -4,11 +4,15 @@ export const FRONTEND = [
     level: 100,
   },
   {
+    type: "Typescript",
+    level: 100,
+  },
+  {
     type: "HTML",
     level: 100,
   },
   {
-    type: "React",
+    type: "ReactJS",
     level: 90,
   },
   {
@@ -20,11 +24,15 @@ export const FRONTEND = [
     level: 75,
   },
   {
-    type: "Angular",
+    type: "AngularJS",
     level: 45,
   },
 ];
 export const BACKEND = [
+  {
+    type: "Typescript",
+    level: 100,
+  },
   {
     type: "NodeJS",
     level: 95,
@@ -34,7 +42,7 @@ export const BACKEND = [
     level: 90,
   },
   {
-    type: "NestJs",
+    type: "NestJS",
     level: 80,
   },
   {
@@ -96,5 +104,67 @@ export const DB = [
   {
     type: "MongoDb",
     level: 70,
+  },
+];
+export const EXPERIENCE = [
+  {
+    job: "Full Stack Developer",
+    image: "/xintec.png",
+    content:
+      "Development of microservices for the different areas of Falabella's business, using NodeJs or NestJs. Web development and APIs consultation with ReactJs. Working with agile methodologies.",
+    company: "Xintec",
+    date: "May 2021",
+    web: "https://xintec.cl/",
+    country: "Chile",
+  },
+  {
+    job: "Software Developer",
+    image: "/imagemaker.png",
+    content:
+      "Participate in the development of the insurance portal of the ScotiaBank bank as the only frontend developer in ReactJs. Agile methodologies were used.",
+    company: "Imagemaker",
+    date: "May 2020 - May 2021",
+    web: "https://www.imagemaker.com/",
+    country: "Chile",
+  },
+  {
+    job: "Full Stack Developer",
+    image: "/trebol.jpeg",
+    content:
+      "Development of microservices for the admission system of the German Clinic, using NodeJs. Participate in the development of the admissions system website using ReactJs. Agile methodologies were used.",
+    company: "Trebol IT",
+    date: "September 2019 - May 2020",
+    web: "https://www.trebol-it.com/",
+    country: "Chile",
+  },
+  {
+    job: "Software Developer",
+    image: "/acepta-sovos.jpeg",
+    content:
+      "Development of microservices in NodeJs and Python to improve the web applications of the digital invoice business. Stored Procedures in the Posgrest Database.",
+    company: "Acepta",
+    date: "March 2018 - September 2019",
+    web: "https://www.acepta.com/",
+    country: "Chile",
+  },
+  {
+    job: "Senior Software Developer",
+    image: "/pdvsa.png",
+    content:
+      "Development of applications related to the extraction and refining of oil using tools such as Python, PHP and NodeJS in the Backend. Leader of projects related to the oil business. Agile methodologies were used.",
+    company: "PDVSA",
+    date: "March 2004 - September 2018",
+    web: "http://www.pdvsa.com/",
+    country: "Venezuela",
+  },
+  {
+    job: "Systems Analyst",
+    image: "/bancaribe.jpeg",
+    content:
+      "Development of stored procedures in the Sybase database. Analysis and solution of incidents in the current accounts of the Bank's clients.",
+    company: "BANCARIBE",
+    date: "January 2000 - September 2004",
+    web: "https://www.bancaribe.com.ve/",
+    country: "Venezuela",
   },
 ];

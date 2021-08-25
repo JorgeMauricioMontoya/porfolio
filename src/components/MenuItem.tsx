@@ -32,6 +32,8 @@ const MenuItem = (props: any) => {
             animationDuration={800}
             color={"#F59E0B"}
           >
+ 
+
             {item}
           </RoughNotation>
         ) : (
