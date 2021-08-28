@@ -106,6 +106,11 @@ export const DB = [
     level: 70,
   },
 ];
+export const SOCIALINKS = {
+  Linkedin: "https://www.linkedin.com/in/rafael-sandoval-0b441179/",
+  instagram: "https://www.instagram.com/sandovalrd/",
+  githut: "https://github.com/sandovalrd",
+};
 export const EXPERIENCE = [
   {
     job: "Full Stack Developer",

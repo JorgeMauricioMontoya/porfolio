@@ -13,7 +13,7 @@ const Skills = (props: any) => {
           {t("skills")}
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-10 py-10 dark:bg-gray-800 pt-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:p-16 p-10  dark:bg-gray-800 pt-20">
         <SkillBars skill={FRONTEND} title={t("frontend")} />
         <SkillBars skill={BACKEND} title={t("backend")} />
         <SkillBars skill={DB} title={t("database")} />

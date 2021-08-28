@@ -1,13 +1,15 @@
-import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
 
-export const Github = () => {
+export const Github = (props: any) => {
+  const { link } = props;
   return (
-    <Link
-      to={"userData.socialLinks.twitter"}
+    <a
+      href={link}
+      target="_blank"
+      rel="noreferrer"
       className="text-base font-normal text-gray-600 dark:text-gray-300"
     >
       <FaGithub size={24} />
-    </Link>
+    </a>
   );
 };

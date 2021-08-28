@@ -1,4 +1,5 @@
 import React from "react";
+import { SOCIALINKS } from "../contents";
 import { Github } from "./Github";
 import Instagram from "./Instagram";
 import { Linkedin } from "./Linkedin";
@@ -14,9 +15,9 @@ export const Footer = () => {
             <p className="text-gray-400">Software Developer</p>
           </div>
           <div className="space-x-3 flex flex-row items-center">
-            <Instagram />
-            <Github />
-            <Linkedin />
+            <Instagram link={SOCIALINKS.instagram} />
+            <Github link={SOCIALINKS.githut} />
+            <Linkedin link={SOCIALINKS.Linkedin} />
           </div>
         </div>
       </div>

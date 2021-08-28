@@ -7,6 +7,7 @@ import MenuItem from "./MenuItem";
 import Title from "./Title";
 import { Github } from "./Github";
 import { withTranslation } from "react-i18next";
+import { SOCIALINKS } from "../contents";
 
 const Header = ({ t }: any) => {
   const { theme, setTheme } = useTheme();
@@ -23,9 +24,9 @@ const Header = ({ t }: any) => {
         </div>
         <div className="space-x-3 flex flex-row items-center">
           <Language />
-          <Instagram />
-          <Github />
-          <Linkedin />
+          <Instagram link={SOCIALINKS.instagram}/>
+          <Github link={SOCIALINKS.githut}/>
+          <Linkedin link={SOCIALINKS.Linkedin}/>
           <button
             aria-label="Toggle Dark Mode"
             type="button"

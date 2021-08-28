@@ -4,7 +4,7 @@ import i18n from "i18next";
 
 const Profile = (props: any) => {
   const { t } = props;
-  console.log("i18n :>> ", i18n.language);
+  
   return (
     <div>
       <div className="h-36 bg-white dark:bg-gray-700">
@@ -24,16 +24,16 @@ const Profile = (props: any) => {
             <p className="text-xl text-gray-800 text-center md:text-left dark:text-gray-200">
               {t("about")}
             </p>
-            <button>
+            <div className='flex justify-center md:justify-start'>
               <a
                 href={i18n.language === "en" ? "/cv_en.pdf" : "cv_es.pdf"}
                 target={"_blank"}
                 rel="noreferrer"
-                className="block mt-8 mx-auto md:mx-0 text-lg py-3 px-6 text-red-50 font-semibold rounded bg-yellow-500 shadow-xl hover:bg-yellow-600 transition-all duration-500 ease-in-out"
+                className="mt-8 text-lg py-3 px-6 text-red-50 font-semibold rounded bg-yellow-500 shadow-xl hover:bg-yellow-600 transition-all duration-500 ease-in-out"
               >
                 {t("cv")}
               </a>
-            </button>
+            </div>
           </div>
         </div>
       </div>
