@@ -9,5 +9,8 @@
   "backend": "Backend",
   "database": "Base de datos",
   "tool": "Herramientas",
-  "so": "Sistemas operativos"
+  "so": "Sistemas operativos",
+  "hi": "Hola, Soy Rafael, Full Stack Developer",
+  "about": "Especializado en ingeniería de software con experiencia en el desarrollo de soluciones y optimización de algoritmos. Experiencia trabajando con metodologías ágiles. Desarrollador Full Stack en Javascript, NodeJs y ReactJs.",
+  "cv": "Descargar CV"
 }

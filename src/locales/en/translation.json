@@ -9,5 +9,8 @@
   "backend": "Backend",
   "database": "Database",
   "so": "Operating systems",
-  "tool": "Tools"
+  "tool": "Tools",
+  "hi": "Hi, I am Rafael, Full Stack Developer",
+  "about": "Specialized in software engineering and experienced in developing solutions and algorythm optimizations. Experience working with agile methodologies.  Javascript Software Developer Full Stack NodeJs and ReactJs.",
+  "cv": "Download CV"
 }

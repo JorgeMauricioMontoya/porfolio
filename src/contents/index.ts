@@ -113,9 +113,8 @@ export const EXPERIENCE = [
     content:
       "Development of microservices for the different areas of Falabella's business, using NodeJs or NestJs. Web development and APIs consultation with ReactJs. Working with agile methodologies.",
     company: "Xintec",
-    date: "May 2021",
+    date: "April 2021",
     web: "https://xintec.cl/",
-    country: "Chile",
   },
   {
     job: "Software Developer",
@@ -123,9 +122,8 @@ export const EXPERIENCE = [
     content:
       "Participate in the development of the insurance portal of the ScotiaBank bank as the only frontend developer in ReactJs. Agile methodologies were used.",
     company: "Imagemaker",
-    date: "May 2020 - May 2021",
+    date: "June 2020 - April 2021",
     web: "https://www.imagemaker.com/",
-    country: "Chile",
   },
   {
     job: "Full Stack Developer",
@@ -133,9 +131,8 @@ export const EXPERIENCE = [
     content:
       "Development of microservices for the admission system of the German Clinic, using NodeJs. Participate in the development of the admissions system website using ReactJs. Agile methodologies were used.",
     company: "Trebol IT",
-    date: "September 2019 - May 2020",
+    date: "September 2019 - June 2020",
     web: "https://www.trebol-it.com/",
-    country: "Chile",
   },
   {
     job: "Software Developer",
@@ -145,7 +142,6 @@ export const EXPERIENCE = [
     company: "Acepta",
     date: "March 2018 - September 2019",
     web: "https://www.acepta.com/",
-    country: "Chile",
   },
   {
     job: "Senior Software Developer",
@@ -153,9 +149,8 @@ export const EXPERIENCE = [
     content:
       "Development of applications related to the extraction and refining of oil using tools such as Python, PHP and NodeJS in the Backend. Leader of projects related to the oil business. Agile methodologies were used.",
     company: "PDVSA",
-    date: "March 2004 - September 2018",
+    date: "March 2004 - December 2017",
     web: "http://www.pdvsa.com/",
-    country: "Venezuela",
   },
   {
     job: "Systems Analyst",
@@ -163,8 +158,7 @@ export const EXPERIENCE = [
     content:
       "Development of stored procedures in the Sybase database. Analysis and solution of incidents in the current accounts of the Bank's clients.",
     company: "BANCARIBE",
-    date: "January 2000 - September 2004",
+    date: "January 2000 - March 2004",
     web: "https://www.bancaribe.com.ve/",
-    country: "Venezuela",
   },
 ];

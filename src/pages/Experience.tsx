@@ -5,6 +5,7 @@ import { EXPERIENCE } from "../contents";
 
 const Experience = (props: any) => {
   const { t } = props;
+
   return (
     <div>
       <div className="h-36 bg-white dark:bg-gray-700">

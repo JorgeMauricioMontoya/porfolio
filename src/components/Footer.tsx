@@ -10,8 +10,8 @@ export const Footer = () => {
         <div className="h-1 w-full bg-white dark:bg-gray-700"></div>
         <div className="flex space-y-0 flex-row justify-between mt-8">
           <div>
-            <p className='font-semibold  dark:text-gray-400'>Rafael Sandoval</p>
-            <p className='text-gray-400'>Software Developer</p>
+            <p className="font-semibold  dark:text-gray-400">Rafael Sandoval</p>
+            <p className="text-gray-400">Software Developer</p>
           </div>
           <div className="space-x-3 flex flex-row items-center">
             <Instagram />

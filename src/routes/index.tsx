@@ -4,19 +4,19 @@ import routes from "./config";
 
 const Router = () => {
   return (
-    <div className='bg-gray-100'>
-      <Switch>
-        {routes.map((routeItem, idx) => {
-          return (
-            <Route
-              key={idx}
-              path={routeItem.path}
-              exact={routeItem.exact}
-              component={routeItem.component}
-            />
-          );
-        })}
-      </Switch>
+    <div className="bg-gray-100">
+        <Switch>
+          {routes.map((routeItem, idx) => {
+            return (
+              <Route
+                key={idx}
+                path={routeItem.path}
+                exact={routeItem.exact}
+                component={routeItem.component}
+              />
+            );
+          })}
+        </Switch>
     </div>
   );
 };

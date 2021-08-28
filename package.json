@@ -1,6 +1,8 @@
 {
-  "name": "tailwindcss",
+  "name": "porfolio",
   "version": "0.1.0",
+  "description": "Personal website",
+  "author": "Rafael Sandoval",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.2.0",

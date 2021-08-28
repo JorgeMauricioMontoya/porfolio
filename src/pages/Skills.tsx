@@ -5,6 +5,7 @@ import { BACKEND, FRONTEND, DB, OTHERS } from "../contents";
 
 const Skills = (props: any) => {
   const { t } = props;
+
   return (
     <div>
       <div className="h-36 bg-white dark:bg-gray-700">
@@ -16,7 +17,7 @@ const Skills = (props: any) => {
         <SkillBars skill={FRONTEND} title={t("frontend")} />
         <SkillBars skill={BACKEND} title={t("backend")} />
         <SkillBars skill={DB} title={t("database")} />
-        <SkillBars skill={OTHERS} title={t("tool")}/>
+        <SkillBars skill={OTHERS} title={t("tool")} />
       </div>
     </div>
   );

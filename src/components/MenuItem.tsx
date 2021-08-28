@@ -9,6 +9,7 @@ const MenuItem = (props: any) => {
 
   useEffect(() => {
     location.pathname === `/${route}` ? setActive(true) : setActive(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
   return (
@@ -21,7 +22,6 @@ const MenuItem = (props: any) => {
             : "text-gray-600 dark:text-gray-200 font-normal"
         }`}
       >
-     
         {active ? (
           <RoughNotation
             type="highlight"
@@ -32,8 +32,6 @@ const MenuItem = (props: any) => {
             animationDuration={800}
             color={"#F59E0B"}
           >
- 
-
             {item}
           </RoughNotation>
         ) : (
