@@ -111,7 +111,7 @@ export const SOCIALINKS = {
   instagram: "https://www.instagram.com/sandovalrd/",
   githut: "https://github.com/sandovalrd",
 };
-export const EXPERIENCE = [
+export const EXPERIENCE_EN = [
   {
     job: "Full Stack Developer",
     image: "/xintec.png",
@@ -162,6 +162,62 @@ export const EXPERIENCE = [
     image: "/bancaribe.jpeg",
     content:
       "Development of stored procedures in the Sybase database. Analysis and solution of incidents in the current accounts of the Bank's clients.",
+    company: "BANCARIBE",
+    date: "January 2000 - March 2004",
+    web: "https://www.bancaribe.com.ve/",
+  },
+];
+export const EXPERIENCE_ES = [
+  {
+    job: "Developer Full Stack",
+    image: "/xintec.png",
+    content:
+      "Desarrollo de microservicios para las diferentes areas de Falabella, utilizando NodeJs o NestJs. Desarrollo web y consulta de API con ReactJs. Trabajando con metodologías ágiles.",
+    company: "Xintec",
+    date: "April 2021",
+    web: "https://xintec.cl/",
+  },
+  {
+    job: "Software Developer",
+    image: "/imagemaker.png",
+    content:
+      "Participar en el desarrollo del portal de seguros del Banco ScotiaBank como único desarrollador frontend en ReactJs. Se trabajo bajo metodologías ágiles.",
+    company: "Imagemaker",
+    date: "June 2020 - April 2021",
+    web: "https://www.imagemaker.com/",
+  },
+  {
+    job: "Full Stack Developer",
+    image: "/trebol.jpeg",
+    content:
+      "Desarrollo de microservicios para el sistema de admisión de la Clínica Alemana, utilizando NodeJs. Participar en el desarrollo del sitio web de dicho sistema utilizando ReactJs. Se trabajo bajo metodologías ágiles.",
+    company: "Trebol IT",
+    date: "September 2019 - June 2020",
+    web: "https://www.trebol-it.com/",
+  },
+  {
+    job: "Software Developer",
+    image: "/acepta-sovos.jpeg",
+    content:
+      "Desarrollo de microservicios en NodeJs y Python para mejorar las aplicaciones web del negocio de factura digital. Desarrollo de procedimientos almacenados en la base de datos de Posgrest.",
+    company: "Acepta",
+    date: "March 2018 - September 2019",
+    web: "https://www.acepta.com/",
+  },
+  {
+    job: "Senior Software Developer",
+    image: "/pdvsa.png",
+    content:
+      "Desarrollo de aplicaciones relacionadas con la extracción y refinamiento del petróleo utilizando herramientas como Python, PHP y NodeJS en el Backend. Líder de proyectos de celulas de desarrollo. En algunos proyectos se trabajo bajo metodologías ágiles.",
+    company: "PDVSA",
+    date: "March 2004 - December 2017",
+    web: "http://www.pdvsa.com/",
+  },
+  {
+    job: "Analista de Sistemas",
+    image: "/bancaribe.jpeg",
+    content:
+      "Desarrollo de procedimientos almacenados en la base de datos Sybase. Análisis y solución de incidencias en las cuentas corrientes de los clientes del Banco.",
     company: "BANCARIBE",
     date: "January 2000 - March 2004",
     web: "https://www.bancaribe.com.ve/",

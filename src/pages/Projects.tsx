@@ -1,5 +1,6 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
+import { CardExperience } from "../components/CardExperience";
 
 const Projects = (props: any) => {
   const { t } = props;
@@ -10,12 +11,9 @@ const Projects = (props: any) => {
           {t("projects")}
         </h1>
       </div>
-      <div className="grid grid-cols-1 justify-items-center gap-5 px-10 py-10 dark:bg-gray-800 pt-20">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At quo suscipit ipsa rem
-          quibusdam doloribus aspernatur sunt temporibus, aperiam amet cum voluptatibus
-          necessitatibus laborum ratione labore vel perspiciatis, cumque corporis.
-        </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-5 px-10 py-10 dark:bg-gray-800 pt-20">
+          <CardExperience />
+          <CardExperience />
       </div>
     </div>
   );
