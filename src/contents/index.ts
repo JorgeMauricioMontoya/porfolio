@@ -1,3 +1,10 @@
+export const DEVELOPER = {
+  name: "Rafael Sandoval",
+  job: "Full Stack Developer",
+  image: "/avatar.jfif",
+  type: "website",
+  website: "https://sandovalrd.website",
+};
 export const FRONTEND = [
   {
     type: "Javascript",

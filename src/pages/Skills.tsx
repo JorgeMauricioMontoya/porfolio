@@ -2,12 +2,15 @@ import React from "react";
 import { SkillBars } from "../components/SkillBars";
 import { withTranslation } from "react-i18next";
 import { BACKEND, FRONTEND, DB, OTHERS } from "../contents";
+import { Seo } from "../components/Seo";
+import { DEVELOPER } from "../contents/index";
 
 const Skills = (props: any) => {
   const { t } = props;
 
   return (
     <div>
+      <Seo title={`${t("skills")} | ${DEVELOPER.name} - ${DEVELOPER.job}`} />
       <div className="h-36 bg-white dark:bg-gray-700">
         <h1 className="text-5xl md:text-8xl font-bold p-20 text-center md:text-left px-10 dark:text-gray-200">
           {t("skills")}

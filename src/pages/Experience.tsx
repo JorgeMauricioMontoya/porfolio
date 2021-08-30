@@ -3,6 +3,7 @@ import { withTranslation } from "react-i18next";
 import { ExpeienceCard } from "../components/ExpeienceCard";
 import { EXPERIENCE_ES, EXPERIENCE_EN } from "../contents";
 import i18n from "i18next";
+import { Seo } from "../components/Seo";import { DEVELOPER } from "../contents/index";
 
 const Experience = (props: any) => {
   const [experience, setExperience] = useState<any[]>([]);
@@ -15,6 +16,7 @@ const Experience = (props: any) => {
 
   return (
     <div>
+      <Seo title={`${t("experience")} | ${DEVELOPER.name} - ${DEVELOPER.job}`} />
       <div className="h-36 bg-white dark:bg-gray-700">
         <h1 className="text-5xl md:text-8xl font-bold p-20 text-center md:text-left px-10 dark:text-gray-200">
           {t("experience")}

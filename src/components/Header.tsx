@@ -8,6 +8,7 @@ import Title from "./Title";
 import { Github } from "./Github";
 import { withTranslation } from "react-i18next";
 import { SOCIALINKS } from "../contents";
+import { DEVELOPER } from "../contents";
 
 const Header = ({ t }: any) => {
   const { theme, setTheme } = useTheme();
@@ -15,7 +16,7 @@ const Header = ({ t }: any) => {
   return (
     <div>
       <div className="flex md:flex-row justify-between items-center mx-4 md:mx-8">
-        <Title fullName="Rafael Sandoval" job="Full Stack Developer" />
+        <Title fullName={DEVELOPER.name} job={DEVELOPER.job} />
         <div className="space-x-4 lg:space-x-10 hidden md:block">
           <MenuItem route="profile" item={t("profile")} />
           <MenuItem route="projects" item={t("projects")} />
