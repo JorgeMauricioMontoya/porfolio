@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import routes from "./config";
 
 const Router = () => {
@@ -16,6 +16,7 @@ const Router = () => {
               />
             );
           })}
+           <Redirect path={'*'} to="/profile" />
         </Switch>
     </div>
   );
