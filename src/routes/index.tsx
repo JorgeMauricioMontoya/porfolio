@@ -16,7 +16,7 @@ const Router = () => {
               />
             );
           })}
-           <Redirect path={'*'} to="/profile" />
+           <Redirect path={'/'} to="/profile" />
         </Switch>
     </div>
   );

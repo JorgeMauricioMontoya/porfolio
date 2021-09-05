@@ -8,3 +8,7 @@ export const COLORS = {
     background: "#F59E0B",
   },
 };
+export const CV = {
+  spanish: "doc/Rafael_Sandoval_Full_Stack_Spanish.pdf",
+  english: "doc/Rafael_Sandoval_Full_Stack_English.pdf",
+};

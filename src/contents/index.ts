@@ -121,7 +121,7 @@ export const SOCIALINKS = {
 export const EXPERIENCE_EN = [
   {
     job: "Full Stack Developer",
-    image: "/xintec.png",
+    image: "img/xintec.png",
     content:
       "Development of microservices for the different areas of Falabella's business, using NodeJs or NestJs. Web development and APIs consultation with ReactJs. Working with agile methodologies.",
     company: "Xintec",
@@ -130,7 +130,7 @@ export const EXPERIENCE_EN = [
   },
   {
     job: "Software Developer",
-    image: "/imagemaker.png",
+    image: "img/imagemaker.png",
     content:
       "Participate in the development of the insurance portal of the ScotiaBank bank as the only frontend developer in ReactJs. Agile methodologies were used.",
     company: "Imagemaker",
@@ -139,7 +139,7 @@ export const EXPERIENCE_EN = [
   },
   {
     job: "Full Stack Developer",
-    image: "/trebol.jpeg",
+    image: "img/trebol.jpeg",
     content:
       "Development of microservices for the admission system of the German Clinic, using NodeJs. Participate in the development of the admissions system website using ReactJs. Agile methodologies were used.",
     company: "Trebol IT",
@@ -148,7 +148,7 @@ export const EXPERIENCE_EN = [
   },
   {
     job: "Software Developer",
-    image: "/acepta-sovos.jpeg",
+    image: "img/acepta-sovos.jpeg",
     content:
       "Development of microservices in NodeJs and Python to improve the web applications of the digital invoice business. Stored Procedures in the Posgrest Database.",
     company: "Acepta",
@@ -157,7 +157,7 @@ export const EXPERIENCE_EN = [
   },
   {
     job: "Senior Software Developer",
-    image: "/pdvsa.png",
+    image: "img/pdvsa.png",
     content:
       "Development of applications related to the extraction and refining of oil using tools such as Python, PHP and NodeJS in the Backend. Leader of projects related to the oil business. Agile methodologies were used.",
     company: "PDVSA",
@@ -166,7 +166,7 @@ export const EXPERIENCE_EN = [
   },
   {
     job: "Systems Analyst",
-    image: "/bancaribe.jpeg",
+    image: "img/bancaribe.jpeg",
     content:
       "Development of stored procedures in the Sybase database. Analysis and solution of incidents in the current accounts of the Bank's clients.",
     company: "BANCARIBE",
@@ -177,7 +177,7 @@ export const EXPERIENCE_EN = [
 export const EXPERIENCE_ES = [
   {
     job: "Developer Full Stack",
-    image: "/xintec.png",
+    image: "img/xintec.png",
     content:
       "Desarrollo de microservicios para las diferentes areas de Falabella, utilizando NodeJs o NestJs. Desarrollo web y consulta de API con ReactJs. Trabajando con metodologías ágiles.",
     company: "Xintec",
@@ -186,7 +186,7 @@ export const EXPERIENCE_ES = [
   },
   {
     job: "Software Developer",
-    image: "/imagemaker.png",
+    image: "img/imagemaker.png",
     content:
       "Participar en el desarrollo del portal de seguros del Banco ScotiaBank como único desarrollador frontend en ReactJs. Se trabajo bajo metodologías ágiles.",
     company: "Imagemaker",
@@ -195,7 +195,7 @@ export const EXPERIENCE_ES = [
   },
   {
     job: "Full Stack Developer",
-    image: "/trebol.jpeg",
+    image: "img/trebol.jpeg",
     content:
       "Desarrollo de microservicios para el sistema de admisión de la Clínica Alemana, utilizando NodeJs. Participar en el desarrollo del sitio web de dicho sistema utilizando ReactJs. Se trabajo bajo metodologías ágiles.",
     company: "Trebol IT",
@@ -204,7 +204,7 @@ export const EXPERIENCE_ES = [
   },
   {
     job: "Software Developer",
-    image: "/acepta-sovos.jpeg",
+    image: "img/acepta-sovos.jpeg",
     content:
       "Desarrollo de microservicios en NodeJs y Python para mejorar las aplicaciones web del negocio de factura digital. Desarrollo de procedimientos almacenados en la base de datos de Posgrest.",
     company: "Acepta",
@@ -213,7 +213,7 @@ export const EXPERIENCE_ES = [
   },
   {
     job: "Senior Software Developer",
-    image: "/pdvsa.png",
+    image: "img/pdvsa.png",
     content:
       "Desarrollo de aplicaciones relacionadas con la extracción y refinamiento del petróleo utilizando herramientas como Python, PHP y NodeJS en el Backend. Líder de proyectos de celulas de desarrollo. En algunos proyectos se trabajo bajo metodologías ágiles.",
     company: "PDVSA",
@@ -222,7 +222,7 @@ export const EXPERIENCE_ES = [
   },
   {
     job: "Analista de Sistemas",
-    image: "/bancaribe.jpeg",
+    image: "img/bancaribe.jpeg",
     content:
       "Desarrollo de procedimientos almacenados en la base de datos Sybase. Análisis y solución de incidencias en las cuentas corrientes de los clientes del Banco.",
     company: "BANCARIBE",

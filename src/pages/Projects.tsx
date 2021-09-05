@@ -1,6 +1,6 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
-import { CardExperience } from "../components/CardExperience";
+import { ProjectCard } from "../components/ProjectCard";
 import { Seo } from "../components/Seo";
 import { DEVELOPER } from "../contents/index";
 
@@ -14,9 +14,8 @@ const Projects = (props: any) => {
           {t("projects")}
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-5 px-10 py-10 dark:bg-gray-800 pt-20">
-          <CardExperience />
-          <CardExperience />
+      <div className="grid grid-cols-1 md:grid-cols-1 justify-items-center px-10 py-10 dark:bg-gray-800 pt-20">
+          <ProjectCard />
       </div>
     </div>
   );

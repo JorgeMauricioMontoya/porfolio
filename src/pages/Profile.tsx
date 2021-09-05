@@ -3,6 +3,8 @@ import { withTranslation } from "react-i18next";
 import i18n from "i18next";
 import { Seo } from "../components/Seo";
 import { DEVELOPER } from "../contents/index";
+import { FaCcVisa } from "react-icons/fa";
+import { CV } from "../constants";
 
 const Profile = (props: any) => {
   const { t } = props;
@@ -29,7 +31,7 @@ const Profile = (props: any) => {
             </p>
             <div className='flex justify-center md:justify-start'>
               <a
-                href={i18n.language === "en" ? "/cv_en.pdf" : "cv_es.pdf"}
+                href={i18n.language === "en" ? CV.english : CV.spanish}
                 target={"_blank"}
                 rel="noreferrer"
                 className="mt-8 text-lg py-3 px-6 text-red-50 font-semibold rounded bg-yellow-500 shadow-xl hover:bg-yellow-600 transition-all duration-500 ease-in-out"
