@@ -7,7 +7,7 @@ import { CV } from "../contents";
 
 const Profile = (props: any) => {
   const { t } = props;
-  
+
   return (
     <div>
       <Seo title={`${t("profile")} | ${DEVELOPER.name} - ${DEVELOPER.job}`} />

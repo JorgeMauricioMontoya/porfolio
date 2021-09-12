@@ -1,8 +1,10 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 import routes from "./config";
+import moment from "moment";
 
 const Router = () => {
+  moment.locale("en") // default languaje
   return (
     <div className="bg-gray-100">
         <Switch>

@@ -1,17 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { withTranslation } from "react-i18next";
-import i18n from "i18next";
 import moment from "moment";
-import "moment/locale/es";
+
 
 const ProjectCard = (props: any) => {
   const { description, deployment, domain, state, color, branch, type, date, t } = props;
-
-  useEffect(() => {
-    i18n.language === "en" ? moment.locale("en") : moment.locale("es");
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [i18n.language]);
 
   return (
     <div className="w-screen h-screen flex flex-row flex-wrap p-6">
