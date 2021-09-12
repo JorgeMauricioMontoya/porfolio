@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { withTranslation } from "react-i18next";
-import { ProjectCard } from "../components/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 import { Seo } from "../components/Seo";
 import { DEVELOPER } from "../contents/index";
+import { PROJECTS_EN, PROJECTS_ES } from "../contents";
+import i18n from "i18next";
 
 const Projects = (props: any) => {
+  const [projects, setProjects] = useState<any[]>([]);
   const { t } = props;
+
+  useEffect(() => {
+    i18n.language === "en" ? setProjects(PROJECTS_EN) : setProjects(PROJECTS_ES);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [i18n.language]);
+
   return (
     <div>
       <Seo title={`${t("projects")} | ${DEVELOPER.name} - ${DEVELOPER.job}`} />
@@ -15,7 +24,21 @@ const Projects = (props: any) => {
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 justify-items-center px-10 py-10 dark:bg-gray-800 pt-20">
-          <ProjectCard />
+        {projects.map((item, idx) => {
+          return (
+            <ProjectCard
+              domain={item.domain}
+              description={item.description}
+              deployment={item.deployment}
+              state={item.state}
+              branch={item.branch}
+              color={item.color}
+              type={item.type}
+              date={item.date}
+              key={idx}
+            />
+          );
+        })}
       </div>
     </div>
   );

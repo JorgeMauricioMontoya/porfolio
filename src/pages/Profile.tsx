@@ -3,8 +3,7 @@ import { withTranslation } from "react-i18next";
 import i18n from "i18next";
 import { Seo } from "../components/Seo";
 import { DEVELOPER } from "../contents/index";
-import { FaCcVisa } from "react-icons/fa";
-import { CV } from "../constants";
+import { CV } from "../contents";
 
 const Profile = (props: any) => {
   const { t } = props;

@@ -4,11 +4,6 @@ export const ExpeienceCard = (props: any) => {
   const { job, company, content, image, date, web } = props;
   return (
     <div>
-      <div className="absolute -mt-1 -ml-1">
-        <div className="w-3 h-3 bg-gray-500 dark:bg-yellow-500 rounded-full ">
-          <div className="w-3 h-3 bg-gray-500 dark:bg-yellow-500 rounded-full  animate-ping"></div>
-        </div>
-      </div>
       <div className="max-w-sm sm:max-w-md bg-white dark:bg-gray-200 border-2 border-gray-300 p-6 rounded-md tracking-wide shadow-xl">
         <div id="header" className="flex items-center mb-4">
           <img alt="avatar" className="w-20 border-gray-300 rounded-lg shadow-sm" src={image} />
@@ -17,31 +12,13 @@ export const ExpeienceCard = (props: any) => {
               {job}
             </h4>
             <div className="flex">
-              <a
-                href={web}
-                target="_blank"
-                rel="noreferrer"
-                id="job"
-                className="flex hover:text-yellow-500 text-lg dark:text-yellow-500 font-light text-gray-500"
-              >
-                {company}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-3 mt-2 ml-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                  />
-                </svg>
-              </a>
+              <div className="inline-flex text-normal text-gray-500 hover:text-yellow-500 cursor-pointer">
+                <a href={web} target="_blank" rel="noreferrer">
+                  <span className="border-b border-dashed border-gray-500 pb-1">{company}</span>
+                </a>
+              </div>
             </div>
-            <h5 id="date" className="text-sm font-light text-gray-400 dark:text-gray-600">
+            <h5 id="date" className="mt-2 text-sm font-light text-gray-400 dark:text-gray-600">
               {date}
             </h5>
           </div>

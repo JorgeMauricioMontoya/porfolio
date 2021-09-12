@@ -22,7 +22,7 @@ const Experience = (props: any) => {
           {t("experience")}
         </h1>
       </div>
-      <div className="grid grid-cols-1 justify-items-center gap-5 px-10 py-10 dark:bg-gray-800 pt-20">
+      <div className="grid md:grid-cols-2 grid-cols-1 justify-items-center gap-5 px-10 py-10 dark:bg-gray-800 pt-20">
         {experience.map((item, idx) => {
           return (
             <ExpeienceCard

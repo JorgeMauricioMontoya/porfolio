@@ -230,3 +230,31 @@ export const EXPERIENCE_ES = [
     web: "https://www.bancaribe.com.ve/",
   },
 ];
+export const CV = {
+  spanish: "doc/Rafael_Sandoval_Full_Stack_Spanish.pdf",
+  english: "doc/Rafael_Sandoval_Full_Stack_English.pdf",
+};
+export const PROJECTS_EN = [
+  {
+    description: "Web portfolio available to show the profile and projects of the developer.",
+    deployment: "porfolio-cyan.vercel.app",
+    domain: "https://sandovalrd.website/",
+    state: "In posgress",
+    color: "bg-yellow-500",
+    type: "Frontend",
+    date: "20210901",
+    branch: "https://github.com/sandovalrd/porfolio/tree/main",
+  },
+];
+export const PROJECTS_ES = [
+  {
+    description: "Portafolio web disponible para mostrar el perfil y proyectos del desarrollador.",
+    deployment: "porfolio-cyan.vercel.app",
+    domain: "https://sandovalrd.website/",
+    state: "En progreso",
+    color: "bg-yellow-500",
+    type: "Frontend",
+    date: "20210901",
+    branch: "https://github.com/sandovalrd/porfolio/tree/main",
+  },
+];
