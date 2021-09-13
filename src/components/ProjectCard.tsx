@@ -5,7 +5,7 @@ import moment from "moment";
 
 
 const ProjectCard = (props: any) => {
-  const { description, deployment, domain, state, color, branch, type, date, t } = props;
+  const { description, technology, domain, state, color, branch, type, date, t } = props;
 
   return (
     <div className="w-screen h-screen flex flex-row flex-wrap p-6">
@@ -13,7 +13,7 @@ const ProjectCard = (props: any) => {
         <div className="rounded-lg shadow-lg bg-gray-600 w-full flex flex-row flex-wrap p-4 antialiased">
           <div className="md:w-1/2  w-full">
             <a
-              href={domain !== null ? domain : `https://${deployment}/`}
+              href={domain}
               target="_blank"
               rel="noreferrer"
             >
@@ -27,19 +27,12 @@ const ProjectCard = (props: any) => {
           <div className="md:w-1/2 w-full px-3 flex flex-row flex-wrap">
             <div className="w-full text-left text-gray-700 font-semibold relative pt-3 md:pt-0">
               <div className="text-xl text-white leading-tight">{t("project")}</div>
-              <div className="text-sm text-gray-300 text-left">{description}</div>
-              <div className="text-base text-white leading-tight mt-4">{t("deployment")}</div>
-              <div className="inline-flex text-sm text-gray-300 hover:text-yellow-500 cursor-pointer">
-                <span className="border-b border-dashed border-gray-500 pb-1">
-                  <a href={`https://${deployment}/`} target="_blank" rel="noreferrer">
-                    {deployment}
-                  </a>
-                </span>
-              </div>
+              <div className="text-sm text-gray-300 text-left mt-1">{description}</div>
+              <div className="text-base text-white leading-tight mt-4">{t("technology")}</div>
+              <div className="text-sm text-gray-300 text-left mt-1">{technology}</div>
               <div className="grid grid-cols-2 gap-6 mt-3">
                 <div className="grid grid-cols-1">
                   <div className="text-base text-white leading-tight">{t("state")}</div>
-
                   <div className="text-sm text-gray-300 leading-tight mt-1">
                     <div className={`w-2.5 h-2.5 inline-flex rounded-full ${color}`}>
                       <div

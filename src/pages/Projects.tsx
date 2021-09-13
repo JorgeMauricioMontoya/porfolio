@@ -29,7 +29,7 @@ const Projects = (props: any) => {
             <ProjectCard
               domain={item.domain}
               description={item.description}
-              deployment={item.deployment}
+              technology={item.technology}
               state={item.state}
               branch={item.branch}
               color={item.color}

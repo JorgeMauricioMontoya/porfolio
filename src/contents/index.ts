@@ -237,7 +237,7 @@ export const CV = {
 export const PROJECTS_EN = [
   {
     description: "Web portfolio available to show the profile and projects of the developer.",
-    deployment: "porfolio-sandovalrd.vercel.app",
+    technology: "Developed in ReactJs",
     domain: "https://sandovalrd.website/",
     state: "In posgress",
     color: "bg-yellow-500",
@@ -249,7 +249,7 @@ export const PROJECTS_EN = [
 export const PROJECTS_ES = [
   {
     description: "Portafolio web disponible para mostrar el perfil y proyectos del desarrollador.",
-    deployment: "porfolio-sandovalrd.vercel.app",
+    technology: "Desarrollado en ReactJs",
     domain: "https://sandovalrd.website/",
     state: "En progreso",
     color: "bg-yellow-500",
