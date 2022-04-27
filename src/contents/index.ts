@@ -32,7 +32,7 @@ export const FRONTEND = [
   },
   {
     type: "AngularJS",
-    level: 45,
+    level: 60,
   },
 ];
 export const BACKEND = [
@@ -84,7 +84,7 @@ export const OTHERS = [
   },
   {
     type: "Kubernetes",
-    level: 50,
+    level: 60,
   },
 ];
 export const DB = [
@@ -236,7 +236,8 @@ export const CV = {
 };
 export const PROJECTS_EN = [
   {
-    description: "Web portfolio available to show the profile and projects of the developer.",
+    description:
+      "Web portfolio available to show the profile and projects of the developer.",
     technology: "Developed in ReactJs",
     domain: "https://sandovalrd.website/",
     state: "In posgress",
@@ -248,7 +249,8 @@ export const PROJECTS_EN = [
 ];
 export const PROJECTS_ES = [
   {
-    description: "Portafolio web disponible para mostrar el perfil y proyectos del desarrollador.",
+    description:
+      "Portafolio web disponible para mostrar el perfil y proyectos del desarrollador.",
     technology: "Desarrollado en ReactJs",
     domain: "https://sandovalrd.website/",
     state: "En progreso",
