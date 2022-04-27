@@ -120,19 +120,28 @@ export const SOCIALINKS = {
 };
 export const EXPERIENCE_EN = [
   {
+    job: "Senior Software Developer",
+    image: "img/falabella.jpeg",
+    content:
+      "Insourced by Fallabella Technology to give continuity and maintenance to the development of microservices and APIs of the different business areas, mainly using NodeJs or NestJS for this purpose.",
+    company: "Xintec",
+    date: "January 2022",
+    web: "https://xintec.cl/",
+  },
+  {
     job: "Full Stack Developer",
     image: "img/xintec.png",
     content:
       "Development of microservices for the different areas of Falabella's business, using NodeJs or NestJs. Web development and APIs consultation with ReactJs. Working with agile methodologies.",
     company: "Xintec",
-    date: "April 2021",
+    date: "April 2021 - December 2021",
     web: "https://xintec.cl/",
   },
   {
-    job: "Software Developer",
+    job: "Frontend Developer",
     image: "img/imagemaker.png",
     content:
-      "Participate in the development of the insurance portal of the ScotiaBank bank as the only frontend developer in ReactJs. Agile methodologies were used.",
+      "Participate in the development of the ScotiaBank insurance portal as the only frontend developer using the ReactJs Javascript library, participate together with the UX/UI in the design of user interfaces using the Figma software. Worked under agile methodologies.",
     company: "Imagemaker",
     date: "June 2020 - April 2021",
     web: "https://www.imagemaker.com/",
@@ -176,19 +185,28 @@ export const EXPERIENCE_EN = [
 ];
 export const EXPERIENCE_ES = [
   {
+    job: "Senior Software Developer",
+    image: "img/falabella.jpeg",
+    content:
+      "Internalizado por Fallabella Tecnología para dar continuidad y mantenimiento a los desarrollos de microservicios y APIs de las diferentes áreas del negocio, utilizando principalmente NodeJs o NestJS para tal fin.",
+    company: "Xintec",
+    date: "Enero 2021",
+    web: "https://xintec.cl/",
+  },
+  {
     job: "Developer Full Stack",
     image: "img/xintec.png",
     content:
       "Desarrollo de microservicios para las diferentes areas de Falabella, utilizando NodeJs o NestJs. Desarrollo web y consulta de API con ReactJs. Trabajando con metodologías ágiles.",
     company: "Xintec",
-    date: "April 2021",
+    date: "April 2021 - December 2021",
     web: "https://xintec.cl/",
   },
   {
-    job: "Software Developer",
+    job: "Frontend Developer",
     image: "img/imagemaker.png",
     content:
-      "Participar en el desarrollo del portal de seguros del Banco ScotiaBank como único desarrollador frontend en ReactJs. Se trabajo bajo metodologías ágiles.",
+      "Participar en el desarrollo del portal de seguros del Banco ScotiaBank como único desarrollador frontend utilizando ReactJs, participar junto al UX/UI en el diseño de interfaces de usuario utilizando el software Figma. Se trabajo bajo metodología ágiles.",
     company: "Imagemaker",
     date: "June 2020 - April 2021",
     web: "https://www.imagemaker.com/",
