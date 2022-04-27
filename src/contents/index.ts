@@ -124,9 +124,9 @@ export const EXPERIENCE_EN = [
     image: "img/falabella.jpeg",
     content:
       "Insourced by Fallabella Technology to give continuity and maintenance to the development of microservices and APIs of the different business areas, mainly using NodeJs or NestJS for this purpose.",
-    company: "Xintec",
+    company: "Fallabela",
     date: "January 2022",
-    web: "https://xintec.cl/",
+    web: "https://falabella.com/",
   },
   {
     job: "Full Stack Developer",
@@ -189,9 +189,9 @@ export const EXPERIENCE_ES = [
     image: "img/falabella.jpeg",
     content:
       "Internalizado por Fallabella Tecnología para dar continuidad y mantenimiento a los desarrollos de microservicios y APIs de las diferentes áreas del negocio, utilizando principalmente NodeJs o NestJS para tal fin.",
-    company: "Xintec",
+    company: "Fallabela",
     date: "Enero 2021",
-    web: "https://xintec.cl/",
+    web: "https://falabella.com/",
   },
   {
     job: "Developer Full Stack",
