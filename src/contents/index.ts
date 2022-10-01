@@ -126,7 +126,7 @@ export const EXPERIENCE_EN = [
       "Internalized by John Deere to provide continuity, maintenance and improvement to automation developments in different areas of the business, mainly using Python.",
     company: "John Deere Argentina",
     date: "January 2022",
-    web: "https://falabella.com/",
+    web: "https://www.deere.com.ar/es/?cid=SEM_Ag_espArg_JohnDeereSearch2022_google_PPC",
   },
   
 ];
@@ -138,7 +138,7 @@ export const EXPERIENCE_ES = [
       "Internalizado por John Deere para dar continuidad y mantenimiento y mejora a los desarrollos de automatización a las diferentes áreas del negocio, utilizando principalmente Python.",
     company: "John Deere Argentina",
     date: "Enero 2022",
-    web: "https://falabella.com/",
+    web: "https://www.deere.com.ar/es/?cid=SEM_Ag_espArg_JohnDeereSearch2022_google_PPC",
   },
   
 ];
