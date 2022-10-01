@@ -1,6 +1,6 @@
 export const DEVELOPER = {
-  name: "Rafael Sandoval",
-  job: "Full Stack Developer",
+  name: "Mauricio Montoya",
+  job: "Developer",
   image: "/avatar.jfif",
   type: "website",
   website: "https://sandovalrd.website",
@@ -8,11 +8,11 @@ export const DEVELOPER = {
 export const FRONTEND = [
   {
     type: "Javascript",
-    level: 100,
+    level: 80,
   },
   {
     type: "Typescript",
-    level: 100,
+    level: 80,
   },
   {
     type: "HTML",
@@ -20,11 +20,11 @@ export const FRONTEND = [
   },
   {
     type: "ReactJS",
-    level: 90,
+    level: 80,
   },
   {
     type: "Unit tests",
-    level: 90,
+    level: 70,
   },
   {
     type: "CSS",
@@ -32,25 +32,25 @@ export const FRONTEND = [
   },
   {
     type: "AngularJS",
-    level: 60,
+    level: 70,
   },
 ];
 export const BACKEND = [
   {
     type: "Typescript",
-    level: 100,
+    level: 80,
   },
   {
     type: "NodeJS",
-    level: 95,
+    level: 75,
   },
   {
     type: "Unit tests",
     level: 90,
   },
   {
-    type: "NestJS",
-    level: 80,
+    type: "Django",
+    level: 90,
   },
   {
     type: "PHP",
@@ -58,7 +58,7 @@ export const BACKEND = [
   },
   {
     type: "Python",
-    level: 70,
+    level: 100,
   },
 ];
 export const OTHERS = [
@@ -72,29 +72,29 @@ export const OTHERS = [
   },
   {
     type: "Docker",
-    level: 80,
-  },
-  {
-    type: "Webpack",
-    level: 75,
-  },
-  {
-    type: "CI / CO",
     level: 70,
   },
   {
-    type: "Kubernetes",
+    type: "Webpack",
+    level: 70,
+  },
+  {
+    type: "CI / CO",
     level: 60,
+  },
+  {
+    type: "Azure",
+    level: 70,
   },
 ];
 export const DB = [
   {
     type: "SQL",
-    level: 100,
+    level: 90,
   },
   {
     type: "Postgres",
-    level: 95,
+    level: 70,
   },
   {
     type: "MySql",
@@ -114,155 +114,49 @@ export const DB = [
   },
 ];
 export const SOCIALINKS = {
-  Linkedin: "https://www.linkedin.com/in/rafael-sandoval-0b441179/",
-  instagram: "https://www.instagram.com/sandovalrd/",
-  githut: "https://github.com/sandovalrd",
+  Linkedin: "https://www.linkedin.com/in/jorge-mauricio-montoya-184b7021a/",
+  instagram: "https://www.instagram.com/maurimontoya_/",
+  githut: "https://github.com/maurixicio99?tab=repositories",
 };
 export const EXPERIENCE_EN = [
   {
-    job: "Senior Software Developer",
-    image: "img/falabella.jpeg",
+    job: "IT Analyst",
+    image: "img/johndeere.jpeg",
     content:
-      "Insourced by Fallabella Technology to give continuity and maintenance to the development of microservices and APIs of the different business areas, mainly using NodeJs or NestJS for this purpose.",
-    company: "Fallabela",
+      "Internalized by John DeereTechnology to provide continuity, maintenance and improvement to automation developments in different areas of the business, mainly using Python.",
+    company: "John Deere Argentina",
     date: "January 2022",
     web: "https://falabella.com/",
   },
-  {
-    job: "Full Stack Developer",
-    image: "img/xintec.png",
-    content:
-      "Development of microservices for the different areas of Falabella's business, using NodeJs or NestJs. Web development and APIs consultation with ReactJs. Working with agile methodologies.",
-    company: "Xintec",
-    date: "April 2021 - December 2021",
-    web: "https://xintec.cl/",
-  },
-  {
-    job: "Frontend Developer",
-    image: "img/imagemaker.png",
-    content:
-      "Participate in the development of the ScotiaBank insurance portal as the only frontend developer using the ReactJs Javascript library, participate together with the UX/UI in the design of user interfaces using the Figma software. Worked under agile methodologies.",
-    company: "Imagemaker",
-    date: "June 2020 - April 2021",
-    web: "https://www.imagemaker.com/",
-  },
-  {
-    job: "Full Stack Developer",
-    image: "img/trebol.jpeg",
-    content:
-      "Development of microservices for the admission system of the German Clinic, using NodeJs. Participate in the development of the admissions system website using ReactJs. Agile methodologies were used.",
-    company: "Trebol IT",
-    date: "September 2019 - June 2020",
-    web: "https://www.trebol-it.com/",
-  },
-  {
-    job: "Software Developer",
-    image: "img/acepta-sovos.jpeg",
-    content:
-      "Development of microservices in NodeJs and Python to improve the web applications of the digital invoice business. Stored Procedures in the Posgrest Database.",
-    company: "Acepta",
-    date: "March 2018 - September 2019",
-    web: "https://www.acepta.com/",
-  },
-  {
-    job: "Senior Software Developer",
-    image: "img/pdvsa.png",
-    content:
-      "Development of applications related to the extraction and refining of oil using tools such as Python, PHP and NodeJS in the Backend. Leader of projects related to the oil business. Agile methodologies were used.",
-    company: "PDVSA",
-    date: "March 2004 - December 2017",
-    web: "http://www.pdvsa.com/",
-  },
-  {
-    job: "Systems Analyst",
-    image: "img/bancaribe.jpeg",
-    content:
-      "Development of stored procedures in the Sybase database. Analysis and solution of incidents in the current accounts of the Bank's clients.",
-    company: "BANCARIBE",
-    date: "January 2000 - March 2004",
-    web: "https://www.bancaribe.com.ve/",
-  },
+  
 ];
 export const EXPERIENCE_ES = [
   {
-    job: "Senior Software Developer",
-    image: "img/falabella.jpeg",
+    job: "IT Analyst",
+    image: "img/johndeere.jpeg",
     content:
-      "Internalizado por Fallabella Tecnología para dar continuidad y mantenimiento a los desarrollos de microservicios y APIs de las diferentes áreas del negocio, utilizando principalmente NodeJs o NestJS para tal fin.",
-    company: "Fallabela",
-    date: "Enero 2021",
+      "Internalizado por John DeereTecnología para dar continuidad y mantenimiento y mejora a los desarrollos de automatización a las diferentes áreas del negocio, utilizando principalmente Python.",
+    company: "John Deere Argentina",
+    date: "Enero 2022",
     web: "https://falabella.com/",
   },
-  {
-    job: "Developer Full Stack",
-    image: "img/xintec.png",
-    content:
-      "Desarrollo de microservicios para las diferentes areas de Falabella, utilizando NodeJs o NestJs. Desarrollo web y consulta de API con ReactJs. Trabajando con metodologías ágiles.",
-    company: "Xintec",
-    date: "April 2021 - December 2021",
-    web: "https://xintec.cl/",
-  },
-  {
-    job: "Frontend Developer",
-    image: "img/imagemaker.png",
-    content:
-      "Participar en el desarrollo del portal de seguros del Banco ScotiaBank como único desarrollador frontend utilizando ReactJs, participar junto al UX/UI en el diseño de interfaces de usuario utilizando el software Figma. Se trabajo bajo metodología ágiles.",
-    company: "Imagemaker",
-    date: "June 2020 - April 2021",
-    web: "https://www.imagemaker.com/",
-  },
-  {
-    job: "Full Stack Developer",
-    image: "img/trebol.jpeg",
-    content:
-      "Desarrollo de microservicios para el sistema de admisión de la Clínica Alemana, utilizando NodeJs. Participar en el desarrollo del sitio web de dicho sistema utilizando ReactJs. Se trabajo bajo metodologías ágiles.",
-    company: "Trebol IT",
-    date: "September 2019 - June 2020",
-    web: "https://www.trebol-it.com/",
-  },
-  {
-    job: "Software Developer",
-    image: "img/acepta-sovos.jpeg",
-    content:
-      "Desarrollo de microservicios en NodeJs y Python para mejorar las aplicaciones web del negocio de factura digital. Desarrollo de procedimientos almacenados en la base de datos de Posgrest.",
-    company: "Acepta",
-    date: "March 2018 - September 2019",
-    web: "https://www.acepta.com/",
-  },
-  {
-    job: "Senior Software Developer",
-    image: "img/pdvsa.png",
-    content:
-      "Desarrollo de aplicaciones relacionadas con la extracción y refinamiento del petróleo utilizando herramientas como Python, PHP y NodeJS en el Backend. Líder de proyectos de celulas de desarrollo. En algunos proyectos se trabajo bajo metodologías ágiles.",
-    company: "PDVSA",
-    date: "March 2004 - December 2017",
-    web: "http://www.pdvsa.com/",
-  },
-  {
-    job: "Analista de Sistemas",
-    image: "img/bancaribe.jpeg",
-    content:
-      "Desarrollo de procedimientos almacenados en la base de datos Sybase. Análisis y solución de incidencias en las cuentas corrientes de los clientes del Banco.",
-    company: "BANCARIBE",
-    date: "January 2000 - March 2004",
-    web: "https://www.bancaribe.com.ve/",
-  },
+  
 ];
 export const CV = {
-  spanish: "doc/Rafael_Sandoval_Full_Stack_Spanish.pdf",
-  english: "doc/Rafael_Sandoval_Full_Stack_English.pdf",
+  spanish: "doc/Mauricio_Montoya_Developer.pdf",
+  english: "doc/Mauricio_Montoya_Developer.pdf",
 };
 export const PROJECTS_EN = [
   {
     description:
       "Web portfolio available to show the profile and projects of the developer.",
     technology: "Developed in ReactJs",
-    domain: "https://sandovalrd.website/",
-    state: "In posgress",
+    domain: "https://github.com/maurixicio99?tab=repositories",
+    state: "In progress",
     color: "bg-yellow-500",
     type: "Frontend",
-    date: "20210901",
-    branch: "https://github.com/sandovalrd/porfolio/tree/main",
+    date: "20220910",
+    branch: "https://github.com/maurixicio99?tab=repositories",
   },
 ];
 export const PROJECTS_ES = [
@@ -270,11 +164,11 @@ export const PROJECTS_ES = [
     description:
       "Portafolio web disponible para mostrar el perfil y proyectos del desarrollador.",
     technology: "Desarrollado en ReactJs",
-    domain: "https://sandovalrd.website/",
+    domain: "https://github.com/maurixicio99?tab=repositories",
     state: "En progreso",
     color: "bg-yellow-500",
     type: "Frontend",
-    date: "20210901",
-    branch: "https://github.com/sandovalrd/porfolio/tree/main",
+    date: "20220910",
+    branch: "https://github.com/maurixicio99?tab=repositories",
   },
 ];
