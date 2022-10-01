@@ -123,7 +123,7 @@ export const EXPERIENCE_EN = [
     job: "IT Analyst",
     image: "img/johndeere.jpeg",
     content:
-      "Internalized by John DeereTechnology to provide continuity, maintenance and improvement to automation developments in different areas of the business, mainly using Python.",
+      "Internalized by John Deere to provide continuity, maintenance and improvement to automation developments in different areas of the business, mainly using Python.",
     company: "John Deere Argentina",
     date: "January 2022",
     web: "https://falabella.com/",
@@ -135,7 +135,7 @@ export const EXPERIENCE_ES = [
     job: "IT Analyst",
     image: "img/johndeere.jpeg",
     content:
-      "Internalizado por John DeereTecnología para dar continuidad y mantenimiento y mejora a los desarrollos de automatización a las diferentes áreas del negocio, utilizando principalmente Python.",
+      "Internalizado por John Deere para dar continuidad y mantenimiento y mejora a los desarrollos de automatización a las diferentes áreas del negocio, utilizando principalmente Python.",
     company: "John Deere Argentina",
     date: "Enero 2022",
     web: "https://falabella.com/",
